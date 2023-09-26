@@ -1,146 +1,186 @@
 .task1 {
+  display: grid;
 }
 
 .task2 {
+  display: grid;
+
+  grid-template-columns: 80px;
 }
 
 .task3 {
   display: grid;
-  
+
+  display: grid;
+  grid-column-gap: 10px;
+  grid-row-gap: 25px;
 }
 
 .task4 {
   display: grid;
 }
 .task4 .item2 {
+  grid-row-start: 5;
 }
 .task4 .item4 {
+  grid-row-start: 4;
 }
 .task4 .item3 {
+  grid-row-start: 6;
 }
 
 .task5 {
   display: grid;
+  justify-content: left;
 }
 
 .task6 {
   display: grid;
+  justify-content: right;
 }
 
 .task7 {
   display: grid;
+  justify-content: center;
 }
 
 .task8 {
   display: grid;
+  justify-content: space-between;
 }
 
 .task9 {
   display: grid;
+  justify-content: space-around;
 }
 
 .task10 {
   display: grid;
+  justify-content: space-evenly;
 }
 
 .task11 {
   display: grid;
+  justify-content: flex-start;
 }
 
 .task12 {
   display: grid;
+  align-content: flex-start;
 }
 
 .task13 {
   display: grid;
+  align-content: flex-end;
 }
 
 .task14 {
   display: grid;
+  align-content: center;
 }
 
 .task15 {
   display: grid;
+  align-content: stretch;
 }
 
 .task16 {
   display: grid;
+  align-content: space-between;
 }
 
-.task17 {
+.task17 {  
   display: grid;
+  align-content: space-around;
 }
 
 .task18 {
   display: grid;
+  align-content: space-evenly;
 }
 
 .task19 {
   display: grid;
+  justify-content: flex-start;
+  align-content: center;
 }
 
 .task20 {
   display: grid;
+  justify-items: left;
 }
 
 .task21 {
   display: grid;
+  justify-items: right;
 }
 
 .task22 {
   display: grid;
+  justify-items: center;
 }
 
 .task23 {
   display: grid;
+  justify-items: normal;
 }
 
 .task24 {
   display: grid;
+  align-items: start;
 }
 
 .task25 {
   display: grid;
+  align-items: end;
 }
 
 .task26 {
   display: grid;
+  align-items: center;
 }
 
 .task27 {
   display: grid;
+  justify-items: normal;
 }
 
 .task28 {
   display: grid;
+  align-items: baseline;
 }
 
 .task29 {
   display: grid;
+  justify-items: center;
 }
 
 .task30 {
   display: grid;
 }
 .task30 .item1 {
+  max-width: min-content;
 }
 
 .task31 {
   display: grid;
 }
 .task31 .item2 {
+  justify-self: right;
 }
 
 .task32 {
   display: grid;
 }
 .task32 .item3 {
+  justify-self: center;
 }
 
 .task33 {
   display: grid;
 }
 .task33 .item4 {
+  justify-self: stretch;
 }
 
 .task34 {
